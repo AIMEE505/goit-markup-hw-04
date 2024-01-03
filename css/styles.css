@@ -362,6 +362,8 @@ border-top: none;
 .footer{
     background-color: #2e2f42;
     padding: 100px 0;
+    display: flex;
+    gap: 120px;
 }
 
 .p-footer{
@@ -440,3 +442,59 @@ gap: 24px;
 img {
     display: block;
 }
+
+.customers {
+    padding: 120px 0;
+}
+
+.customers-title {
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+
+}
+
+.customerslisticons{
+    width: 168px;
+height: 88px;
+
+}
+
+
+.cusomersicons{
+width: 100%;
+  height: 100%;
+  background-color: #F4F4FD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconscustomers:hover {
+  background-color: #404bbf;
+}
+
+.iconscustomers {
+    fill: #f4f4fd;
+}
+
+
+.socialmediasvgfooter {
+    display: flex;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.logofootericons {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+color: #FFFFFF;
+}
+
