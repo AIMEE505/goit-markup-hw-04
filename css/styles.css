@@ -503,8 +503,7 @@ width: 100%;
 
 .socialmediasvgfooter {
     display: flex;
-  gap: 24px;
-  padding-left: 0;
+  gap: 16px;
 }
 
 .logofootericons {
@@ -512,8 +511,36 @@ width: 100%;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: #FFFFFF;
+margin-bottom: 16px;
 }
+
+
+.footercontainer {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.ffcontainer {
+    margin-right: 120px;
+
+}
+
+.socialmedialinkfooter {
+    width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialmedialink:hover,
+.socialmedialink:focus {
+  background-color: #31d0aa;
+}
+
 
