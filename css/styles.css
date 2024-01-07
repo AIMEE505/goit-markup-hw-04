@@ -538,6 +538,7 @@ margin-bottom: 16px;
 
 .ffcontainer {
     margin-right: 120px;
+    margin-left: 156px;
 
 }
 
@@ -549,10 +550,10 @@ margin-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
-.socialmedialink:hover,
-.socialmedialink:focus {
+
+.socialmedialinkfooter:hover,
+.socialmedialinkfooter:focus {
   background-color: #31d0aa;
 }
-
-
